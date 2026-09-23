@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Sandbase bot</title>
+  <desc id="desc">A warm sand ball with a cut-out face on a black app tile.</desc>
+
+  <defs>
+    <clipPath id="tile"><rect width="1024" height="1024" rx="224" /></clipPath>
+
+    <!-- The mascot's material: one ball of sand, lit the way the body is lit
+         in the app — a soft dome highlight up and to the left, not a sheen. -->
+    <radialGradient id="sand" cx="38%" cy="32%" r="75%">
+      <stop offset="0"    stop-color="#F7E9C8" />
+      <stop offset="0.45" stop-color="#E6CFA6" />
+      <stop offset="0.78" stop-color="#CFAE7C" />
+      <stop offset="1"    stop-color="#B08A57" />
+    </radialGradient>
+  </defs>
+
+  <g clip-path="url(#tile)">
+    <rect width="1024" height="1024" fill="#000000" />
+
+    <!-- The ball with its face cut out (evenodd): one closed circle of radius
+         368 around the tile centre, then two capsule eyes and a crescent
+         smile, which the fill rule turns into holes. -->
+    <path fill="url(#sand)" fill-rule="evenodd"
+      d="M 880 512
+         C 880 715.24 715.24 880 512 880
+         C 308.76 880 144 715.24 144 512
+         C 144 308.76 308.76 144 512 144
+         C 715.24 144 880 308.76 880 512 Z
+         M 398 430 A 34 34 0 0 1 466 430 L 466 522 A 34 34 0 0 1 398 522 Z
+         M 558 430 A 34 34 0 0 1 626 430 L 626 522 A 34 34 0 0 1 558 522 Z
+         M 427.28 672.28 A 114 114 0 0 0 596.72 672.28
+           L 575.91 653.55 A 86 86 0 0 1 448.09 653.55 Z" />
+  </g>
+</svg>

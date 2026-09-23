@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      The launcher background. White, so the mascot reads exactly as it does in
+      the roster: a ball of sand with a cut-out face. The ball's fill is the
+      mascot's neutral sand (the body colour a bot wears when it has none of its
+      own), applied to the mascot itself rather than behind it.
+    -->
+    <color name="launcher_background">#FFFFFFFF</color>
+</resources>

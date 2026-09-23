@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The launcher mark: the mascot's body, one ball of sand, with the same face
+     the desktop icon cuts out. Drawn directly in the 108 viewport rather than
+     through the cursor artwork's transform — the ball is a circle, so it needs
+     no shipped geometry, and this keeps it inside the adaptive icon's safe
+     square at every mask shape. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFE3CAA0"
+        android:pathData="M54,28 A26,26 0 1 1 54,80 A26,26 0 1 1 54,28 Z" />
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:pathData="M48.34,45.2 L48.34,56.4" />
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:pathData="M59.66,45.2 L59.66,56.4" />
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:pathData="M47.5,64.5 A9,9 0 0 0 60.5,64.5" />
+</vector>

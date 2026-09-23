@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundleDisplayName</key>
+    <string>Sandbase bot</string>
+    <key>CFBundleExecutable</key>
+    <string>speech-helper</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.openmausbot.app.speech-helper</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Sandbase bot Speech</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>LSBackgroundOnly</key>
+    <true/>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Sandbase bot listens while you dictate messages or talk to a bot.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Sandbase bot converts your speech into text during dictation and calls.</string>
+  </dict>
+</plist>
